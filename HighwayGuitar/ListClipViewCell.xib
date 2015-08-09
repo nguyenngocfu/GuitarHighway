@@ -6,43 +6,43 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListClipViewCell"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="O58-D7-bVk" customClass="ListClipViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="45" id="O58-D7-bVk" customClass="ListClipViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="222" height="45"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O58-D7-bVk" id="Q6h-F2-V0p">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Giới Thiệu Các Kỹ Thuật Cơ Bản" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKy-6z-NyL">
-                        <rect key="frame" x="48" y="0.0" width="241" height="21"/>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <rect key="frame" x="8" y="0.0" width="241" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="93w-WQ-75v">
-                        <rect key="frame" x="129" y="14" width="160" height="22"/>
+                        <rect key="frame" x="22" y="15" width="160" height="22"/>
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fsc-sQ-Et3">
-                        <rect key="frame" x="152" y="14" width="160" height="22"/>
+                        <rect key="frame" x="43" y="15" width="160" height="22"/>
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="7b8-OS-eji">
-                        <rect key="frame" x="174" y="14" width="160" height="22"/>
-                    </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="j67-PD-tAz">
-                        <rect key="frame" x="193" y="14" width="160" height="22"/>
+                        <rect key="frame" x="89" y="15" width="160" height="22"/>
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="3ny-6M-vUS">
-                        <rect key="frame" x="213" y="14" width="160" height="22"/>
+                        <rect key="frame" x="63" y="15" width="160" height="22"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Độ khó" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zn-6y-I9s">
-                        <rect key="frame" x="48" y="14" width="42" height="21"/>
+                        <rect key="frame" x="13" y="15" width="42" height="21"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="j67-PD-tAz">
+                        <rect key="frame" x="113" y="15" width="160" height="22"/>
+                    </imageView>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="214" y="83"/>
+            <point key="canvasLocation" x="165" y="83.5"/>
         </tableViewCell>
     </objects>
     <resources>
